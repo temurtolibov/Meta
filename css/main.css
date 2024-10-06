@@ -1,0 +1,223 @@
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v18-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dm-mono-v14-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/audiowide-v20-latin-regular.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+button:hover {
+  border: none;
+  background-color: #8dfd1b;
+  color: black;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 48px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "DM Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.four-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 12px;
+          column-gap: 12px;
+}
+
+.header-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-text {
+  padding-left: 77px;
+}
+
+.main-text h1 {
+  font-family: "Audiowide";
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 61px;
+}
+
+.main-text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 340px;
+  padding-top: 43px;
+  padding-bottom: 115px;
+}
+
+button {
+  border: 1px solid #8dfd1b;
+  background-color: black;
+  color: white;
+  padding: 17px 40px 27px 40px;
+  cursor: pointer;
+}
+
+.line-text h3 {
+  font-family: "DM Mono";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  color: #8dfd1b;
+  max-width: 546px;
+}
+
+.section2-text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 564px;
+  padding-top: 20px;
+}
+
+.line-text span {
+  width: 2px;
+  height: 124px;
+  border: 2px solid #8dfd1b;
+}
+
+.line-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 22px;
+          column-gap: 22px;
+}
+
+.section2-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 220px;
+          column-gap: 220px;
+}
+
+.section2-main img {
+  padding-left: 40px;
+}
+
+.button2 {
+  border: 1px solid #8dfd1b;
+  background-color: black;
+  color: white;
+  padding: 10px 33px 16px 33px;
+  cursor: pointer;
+  margin-top: 30px;
+  font-family: "DM Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.artists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 60px;
+          column-gap: 60px;
+  row-gap: 60px;
+}
+
+.artists p {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "DM Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.belong-image img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 120px;
+}
+/*# sourceMappingURL=main.css.map */

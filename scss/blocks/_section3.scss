@@ -1,0 +1,20 @@
+.artists {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 60px;
+  row-gap: 60px;
+}
+
+.artists p {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "DM Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.belong-image img {
+  align-items: center;
+  padding: 120px;
+}

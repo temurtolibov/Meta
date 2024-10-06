@@ -1,0 +1,66 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 48px;
+}
+
+.nav {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
+.nav ul li {
+  display: flex;
+  column-gap: 40px;
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "DM Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.four-images {
+  display: flex;
+  column-gap: 12px;
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+}
+
+.main-text {
+  padding-left: 77px;
+}
+
+.main-text h1 {
+  font-family: "Audiowide";
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 61px;
+}
+
+.main-text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 340px;
+  padding-top: 43px;
+  padding-bottom: 115px;
+}
+
+button {
+  border: 1px solid #8dfd1b;
+  background-color: black;
+  color: white;
+  padding: 17px 40px 27px 40px;
+  cursor: pointer;
+}
